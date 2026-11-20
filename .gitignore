@@ -1,5 +1,16 @@
-secrets.py
+# Ambiente Python
+.venv/
 __pycache__/
-*.pyc
+*.py[cod]
+
+# Configurações e credenciais privadas
+secrets.py
+.env
+.env.*
+
+# Arquivos temporários do Wokwi e editor
 .wokwi/
 .vscode/
+
+# Arquivos de transferência antigos
+upload.py
